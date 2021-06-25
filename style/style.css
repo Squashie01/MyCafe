@@ -288,7 +288,7 @@ section
     height: auto;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to top left, #E51065 60%,  #FFD1E3 40%);
+    background: linear-gradient(to top left, #FC3082 60%,  #FFD1E3 40%);
 }
 
 .order-form .text
