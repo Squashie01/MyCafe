@@ -309,6 +309,12 @@ section
     padding-bottom: 3.5em;
 }
 
+.form
+{
+    background-color: #e51065;
+    padding: 2em;
+}
+
 .order-form .text h3
 {
     font-size: 19px;
