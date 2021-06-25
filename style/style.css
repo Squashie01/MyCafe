@@ -1,0 +1,439 @@
+@font-face {
+    font-family: Champagne;
+    src: url("../fonts/Champagne & Limousines.ttf");
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Champagne';
+    background-color: #fffdfc;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+div a
+{
+    color: #e51065;
+}
+
+/* Header Nav Bar */
+
+header
+{
+    height: 101px;
+    position: relative;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.header-container
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo span
+{
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 30px;
+}
+
+.logo img
+{
+    height: 100%;
+}
+
+.leftside-nav
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rightside-nav
+{
+    display: flex;
+    align-items: center;
+}
+
+.rightside-nav ul
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    margin: 0 8em;
+}
+
+.rightside-nav ul li
+{
+    text-transform: uppercase;
+    padding-left: 24px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+.rightside-nav ul li:hover
+{
+    color: #e51065;
+}
+
+
+
+
+/* Main Container */
+
+.main-container
+{
+    max-width: 100%;
+    margin: 0;
+}
+
+.announcement
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    background-color: #FFA6C9;
+}
+
+.announcement span
+{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 17px;
+}
+
+.left-right-section
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.left-right-section .image
+{
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+
+.left-right-section .image img
+{
+    width: 100%;
+}
+
+.left-right-section .text
+{
+    width: 40%;
+    color: #e51065;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD1E3;
+}
+
+.text .cta
+{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #e51065;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.text .cta:hover
+{
+    padding: 7px 48px;
+    background-color: rgba(229, 16, 101, 0.1);
+}
+
+
+/* Food Section */
+
+.label span
+{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+section 
+{
+    display: flex;
+}
+
+.foods
+{
+    display: flex;
+    justify-content: center;
+}
+
+.top-bottom-section
+{
+    display: flex;
+    width: 20%;
+    margin-bottom: 32px;
+}
+
+.section-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.top-bottom-section .image
+{
+    width: 100%;
+}
+
+.top-bottom-section .image img
+{
+    width: 100%;
+}
+
+.top-bottom-section .text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bottom-section:first-child .section-container
+{
+    margin-right: 16px;
+}
+
+.top-bottom-section:last-child .section-container
+{
+    margin-left: 16px;
+}
+.top-bottom-section .image
+{
+    display: flex;
+}
+
+.top-bottom-section .text
+{
+    background-color: #FFD1E3;
+    color: #e51065;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-top: 12px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.top-bottom-section .text h1
+{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.top-bottom-section .text h2
+{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.top-bottom-section .text h3
+{
+    font-size: 19px;
+    text-align: center;
+}
+
+
+/* Order Form */
+
+.order-form
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top left, #E51065 60%,  #FFD1E3 40%);
+}
+
+.order-form .text
+{
+    width: 25%;
+    margin-right: 10%;
+    padding: 2.5em;
+    font-size: 40px;
+}
+
+.order-form .form
+{
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    padding-bottom: 3.5em;
+}
+
+.order-form .text h3
+{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+input
+{
+    width: 20em;
+    padding-top: 2em;
+    border: none;
+    border-bottom: 3px solid #FFD1E3;
+    background-color: transparent;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+::-webkit-input-placeholder 
+{
+    color: #FFD1E3;
+}
+:-moz-placeholder 
+{
+    color: #FFD1E3;
+}
+::-moz-placeholder 
+{
+    color: #FFD1E3;
+}
+:-ms-input-placeholder
+{
+    color: #FFD1E3;
+}
+  
+
+select
+{
+    width: 20em;;
+    color: #FFD1E3;
+    border: none;
+    background-color: transparent;
+}
+
+option
+{
+    color: #E51065;
+}
+
+select:focus
+{
+    outline: none;
+}
+
+.form .cta
+{
+    width: 4.5em;
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: #FFD1E3;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form .cta:hover
+{
+    padding: 7px 48px;
+    background-color: rgba(255, 209, 227, 0.1);
+}
+
+
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 24px 0;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.footer-container
+{
+    padding: 0 40px;
+    display: flex;
+}
+
+.footer-container ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container ul li
+{
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.links-container
+{
+    width: 190px;
+    margin-right: 16px;
+}
+
+.footer-container ul li:hover
+{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+footer h3{
+    font-weight: 300;
+    margin-bottom: 24px;
+}
